@@ -1,0 +1,9 @@
+algorithm: neoscrypt
+pzTimestamp: Don't work for weekends, work for our goals.
+pubkey: 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962   e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a   4c702b6bf11d5f
+bits: 504365040
+time: 1541859325
+merkle root hash: f5239467dd2a9dd0fce7a3babc03c7985eab2229c62e   3d5670375f305753c9cc
+Searching for genesis hash...
+nonce: 3026004
+genesis hash: 0000045f1ca1655c625f138faaf43f521fefec4644ea2e4c9e4619d8684cde1f
