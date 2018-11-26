@@ -40,12 +40,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_pivx">res/icons/unit_pivx.png</file>
-        <file alias="unit_mpivx">res/icons/unit_mpivx.png</file>
-        <file alias="unit_upivx">res/icons/unit_upivx.png</file>
-        <file alias="unit_tpivx">res/icons/unit_tpivx.png</file>
-        <file alias="unit_tmpivx">res/icons/unit_tmpivx.png</file>
-        <file alias="unit_tupivx">res/icons/unit_tupivx.png</file>
+        <file alias="unit_smartblock">res/icons/unit_smartblock.png</file>
+        <file alias="unit_msmartblock">res/icons/unit_msmartblock.png</file>
+        <file alias="unit_usmartblock">res/icons/unit_usmartblock.png</file>
+        <file alias="unit_tsmartblock">res/icons/unit_tsmartblock.png</file>
+        <file alias="unit_tmsmartblock">res/icons/unit_tmsmartblock.png</file>
+        <file alias="unit_tusmartblock">res/icons/unit_tusmartblock.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -64,7 +64,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="pivx_logo_horizontal">res/images/pivx_logo_horizontal.png</file>
+        <file alias="smartblock_logo_horizontal">res/images/smartblock_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow_dark.png</file>
         <file alias="downArrow_small">res/images/downArrow_small_dark.png</file>
         <file alias="downArrow_small_white">res/images/downArrow_small.png</file>

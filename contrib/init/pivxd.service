@@ -1,19 +1,19 @@
 [Unit]
-Description=PIVX's distributed currency daemon
+Description=SMARTBLOCK's distributed currency daemon
 After=network.target
 
 [Service]
-User=pivx
-Group=pivx
+User=smartblock
+Group=smartblock
 
 Type=forking
-PIDFile=/var/lib/pivxd/pivxd.pid
+PIDFile=/var/lib/smartblockd/smartblockd.pid
 
-ExecStart=/usr/bin/pivxd -daemon -pid=/var/lib/pivxd/pivxd.pid \
-          -conf=/etc/pivx/pivx.conf -datadir=/var/lib/pivxd
+ExecStart=/usr/bin/smartblockd -daemon -pid=/var/lib/smartblockd/smartblockd.pid \
+          -conf=/etc/smartblock/smartblock.conf -datadir=/var/lib/smartblockd
 
-ExecStop=-/usr/bin/pivx-cli -conf=/etc/pivx/pivx.conf \
-         -datadir=/var/lib/pivxd stop
+ExecStop=-/usr/bin/smartblock-cli -conf=/etc/smartblock/smartblock.conf \
+         -datadir=/var/lib/smartblockd stop
 
 Restart=always
 PrivateTmp=true

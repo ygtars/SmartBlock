@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017 The SMARTBLOCK developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -107,7 +107,6 @@ signals:
 public slots:
     void chooseDate(int idx);
     void chooseType(int idx);
-    void hideOrphans(bool fHide);
     void chooseWatchonly(int idx);
     void changedPrefix(const QString& prefix);
     void changedAmount(const QString& amount);

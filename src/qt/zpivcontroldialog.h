@@ -1,9 +1,9 @@
-// Copyright (c) 2017-2018 The PIVX developers
+// Copyright (c) 2017-2018 The SMARTBLOCK developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZPIVCONTROLDIALOG_H
-#define ZPIVCONTROLDIALOG_H
+#ifndef ZXCKCONTROLDIALOG_H
+#define ZXCKCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -16,16 +16,6 @@ class WalletModel;
 namespace Ui {
 class ZPivControlDialog;
 }
-
-class CZPivControlWidgetItem : public QTreeWidgetItem
-{
-public:
-    explicit CZPivControlWidgetItem(QTreeWidget *parent, int type = Type) : QTreeWidgetItem(parent, type) {}
-    explicit CZPivControlWidgetItem(int type = Type) : QTreeWidgetItem(type) {}
-    explicit CZPivControlWidgetItem(QTreeWidgetItem *parent, int type = Type) : QTreeWidgetItem(parent, type) {}
-
-    bool operator<(const QTreeWidgetItem &other) const;
-};
 
 class ZPivControlDialog : public QDialog
 {
@@ -57,11 +47,10 @@ private:
         COLUMN_CONFIRMATIONS,
         COLUMN_ISSPENDABLE
     };
-    friend class CZPivControlWidgetItem;
 
 private slots:
     void updateSelection(QTreeWidgetItem* item, int column);
     void ButtonAllClicked();
 };
 
-#endif // ZPIVCONTROLDIALOG_H
+#endif // ZXCKCONTROLDIALOG_H

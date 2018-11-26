@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The SMARTBLOCK developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/smartblock-config.h"
 #endif
 
 #include "util.h"
@@ -21,21 +21,13 @@
 
 #include <openssl/ssl.h>
 
-#if defined(QT_STATICPLUGIN)
+#if defined(QT_STATICPLUGIN) && QT_VERSION < 0x050000
 #include <QtPlugin>
-#if defined(QT_QPA_PLATFORM_MINIMAL)
-Q_IMPORT_PLUGIN(QMinimalIntegrationPlugin);
+Q_IMPORT_PLUGIN(qcncodecs)
+Q_IMPORT_PLUGIN(qjpcodecs)
+Q_IMPORT_PLUGIN(qtwcodecs)
+Q_IMPORT_PLUGIN(qkrcodecs)
 #endif
-#if defined(QT_QPA_PLATFORM_XCB)
-Q_IMPORT_PLUGIN(QXcbIntegrationPlugin);
-#elif defined(QT_QPA_PLATFORM_WINDOWS)
-Q_IMPORT_PLUGIN(QWindowsIntegrationPlugin);
-#elif defined(QT_QPA_PLATFORM_COCOA)
-Q_IMPORT_PLUGIN(QCocoaIntegrationPlugin);
-#endif
-#endif
-
-extern void noui_connect();
 
 // This is all you need to run all the tests
 int main(int argc, char *argv[])

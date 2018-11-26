@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
+SystemD: smartblockd.service
+Upstart: smartblockd.conf
+OpenRC:  smartblockd.openrc
+         smartblockd.openrcconf
+CentOS:  smartblockd.init
 
 have been made available to assist packagers in creating node packages here.
 
