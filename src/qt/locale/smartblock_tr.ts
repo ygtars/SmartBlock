@@ -2220,7 +2220,7 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in smartblock
     </message>
     <message>
         <source>Cannot start smartblock: click-to-pay handler</source>
-        <translation>Pivx başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
+        <translation>SmartBlock başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid SMARTBLOCK address or malformed URI parameters.</source>
@@ -2705,8 +2705,8 @@ Maksimum bırakılan: </translation>
         <translation>Sağlanan 'Ödeme Yapmak İçin' adresi yok, yerel ödeme oluşturun</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
-        <translation>Geçersiz Pivx Adresi</translation>
+        <source>Invalid SmartBlock Address</source>
+        <translation>Geçersiz SmartBlock Adresi</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>

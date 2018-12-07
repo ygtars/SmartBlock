@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.smartblock.Pivx-Qt";
+        return @"io.smartblock.SmartBlock-Qt";
     } else {
         return [self __bundleIdentifier];
     }

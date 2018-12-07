@@ -2905,8 +2905,8 @@ Högsta tillåtna:</translation>
         <translation>Ingen 'Betala Till' adress inmatad, skapar lokal betalning</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
-        <translation>Ogiltig Pivx Adress</translation>
+        <source>Invalid SmartBlock Address</source>
+        <translation>Ogiltig SmartBlock Adress</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>

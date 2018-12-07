@@ -2928,7 +2928,7 @@ Maksimum tilladt:</translation>
         <translation>Ingen 'Betal til' adresse, der er oprettet, skaber lokal betaling</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
+        <source>Invalid SmartBlock Address</source>
         <translation> Ugyldig SMARTBLOCK adresse</translation>
     </message>
     <message>

@@ -2929,8 +2929,8 @@ Maximaal toegestaan:</translation>
         <translation>Geen 'Betaal aan' adres verstrekt, lokale betaling wordt gemaakt</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
-        <translation>Ongeldig Pivx addres</translation>
+        <source>Invalid SmartBlock Address</source>
+        <translation>Ongeldig SmartBlock addres</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
