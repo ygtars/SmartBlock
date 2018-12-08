@@ -2929,7 +2929,7 @@ Máximo permitido:</translation>
         <translation>No se especificó drección 'Pagar A', por lo que asumimos un pago local</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
+        <source>Invalid SmartBlock Address</source>
         <translation>Dirección SMARTBLOCK Inválida</translation>
     </message>
     <message>
