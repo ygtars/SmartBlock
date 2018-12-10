@@ -38,7 +38,7 @@
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.smartblock.Pivx-Qt</string>
+  <string>io.smartblock.SmartBlock-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.smartblock.PivxPayment</string>
+      <string>io.smartblock.SmartBlockPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>smartblock</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.smartblock.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Pivx payment request</string>
+      <string>SmartBlock payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

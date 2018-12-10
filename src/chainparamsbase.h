@@ -11,7 +11,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between smartblock-cli and smartblockd)
- * of a given instance of the Pivx system.
+ * of a given instance of the SmartBlock system.
  */
 class CBaseChainParams
 {

@@ -42,7 +42,7 @@ The following are developer notes on how to build SMARTBLOCK on your native plat
 
 Development
 ---------------------
-The Pivx repo's [root README](https://github.com/SMARTBLOCK-Project/SMARTBLOCK/blob/master/README.md) contains relevant information on the development process and automated testing.
+The SmartBlock repo's [root README](https://github.com/SMARTBLOCK-Project/SMARTBLOCK/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
